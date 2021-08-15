@@ -1,0 +1,81 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: purple;
+}
+
+.quote-wraper {
+  width: 500px;
+  height: 400px;
+  margin: 0 10px;
+  /* background-color: seashell; */
+  /* padding: 20px; */
+}
+
+.quote-wraper h1 {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.body {
+  background-color: seashell;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #000;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.body .icon {
+  margin-right: 10px;
+}
+
+.body .text {
+  color: #000;
+  font-size: 20px;
+}
+
+.body .text h4 {
+  font-size: 18px;
+  margin: 8px 10px 30px 30px;
+}
+
+.body .text .author {
+  text-align: right;
+  margin: -10px 10px;
+  font-size: 18px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  border-top: 2px solid purple;
+  padding: 10px 0;
+  margin-bottom: -15px;
+}
+
+.buttons .btnrl i {
+  font-size: 40px;
+  color: purple;
+}
+
+.buttons .btnleft {
+  margin-bottom: 0;
+}
+.buttons .btnleft button {
+  border: none;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: purple;
+  color: #fff;
+  font-size: 19px;
+  cursor: pointer;
+}
